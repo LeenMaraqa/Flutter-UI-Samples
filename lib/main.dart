@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ui_samples/filter.dart';
+import 'package:ui_samples/user_profile/user_profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FilterApp();
+    return UserProfile();
   }
 }
